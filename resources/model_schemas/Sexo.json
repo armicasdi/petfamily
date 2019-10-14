@@ -1,0 +1,30 @@
+[
+    {
+        "name": "cod_sexo",
+        "dbType": "boolean",
+        "htmlType": "checkbox,1",
+        "validations": null,
+        "searchable": false,
+        "fillable": false,
+        "primary": true,
+        "inForm": false,
+        "inIndex": false,
+        "inView": false
+    },
+    {
+        "name": "sexo",
+        "dbType": "string,15:nullable",
+        "htmlType": "text",
+        "validations": null,
+        "searchable": true,
+        "fillable": true,
+        "primary": false,
+        "inForm": true,
+        "inIndex": true,
+        "inView": true
+    },
+    {
+        "type": "relation",
+        "relation": "1tm,Mascota,cod_sexo"
+    }
+]
